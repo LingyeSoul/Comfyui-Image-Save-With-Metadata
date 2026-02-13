@@ -1,0 +1,18 @@
+[project]
+name = "image-save-with-metadata"
+description = "A standalone ComfyUI node for saving images with custom metadata support"
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = [
+    "numpy>=1.24.0",
+    "Pillow>=9.5.0",
+]
+
+[project.urls]
+Repository = "https://github.com/LingyeSoul/Comfyui-Image-Save-With-Metadata"
+# Based on WAS Node Suite - Image Save node
+
+[tool.comfy]
+PublisherId = "custom"
+DisplayName = "Image Save With Metadata"
+Icon = ""

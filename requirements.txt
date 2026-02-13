@@ -1,0 +1,7 @@
+# Image Save With Metadata - Dependencies
+# Most of these are already included with ComfyUI
+
+# Core dependencies (usually pre-installed with ComfyUI)
+numpy>=1.24.0
+Pillow>=9.5.0
+torch>=2.0.0
